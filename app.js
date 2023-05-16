@@ -15,7 +15,8 @@ function ramdonPoems(){
     "Para el mundo no soy nadie, pero para mí tu eres el mundo.",
     "Cada mañana cuando despierto, tú eres la razón por la que sonrío; tú eres la razón por la que amo.",
     "Por más momentos juntos.",
-    "Por mas viajes juntos."];
+    "Por mas viajes juntos.",
+  "Me encanta tu sonrisa."];
 
     let opcion = poems[Math.floor(Math.random()*poems.length)] ;
     return opcion
