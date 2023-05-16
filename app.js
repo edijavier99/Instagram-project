@@ -1,7 +1,7 @@
 
 function login() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    var username = document.getElementById("usuario").value;
+    var password = document.getElementById("contraseña").value;
     if (username.toLowerCase() === "brigitte" && password.toLowerCase()=== "07031999") {
       window.location.href = "login.html";
     } else {
