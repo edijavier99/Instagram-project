@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container-fluid p-3"> 
+        <div id="seconCorusel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row"> 
+                        <div class="div1 col-6 col-md-4 col-l-4">
+                            <div class="imagen-contenedor">
+                                <img  src="img/foto-1.jpg"  class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <div class="div2 col-6 col-md-8 col-l-8 d-flex align-items-center justify-content-center text-center flex-column">
+                            <div class="texto-contenedor d-flex align-items-center justify-content-center text-center flex-column">
+                                <h3 class="titulo">Pasaron los días...</h3>
+                                <p class="texto "> 
+                                    Fueron pasando las horas, semanas y poco a poco nos fuimos conociendo más y más 
+                                    Empezamos a hacer muchas cosas juntos. Espero que te acuerdes de la noche de Halloween,
+                                    salimos de fiesta disfrazados. La verdad que me lo pase genial. A partir de ese momento 
+                                    ivamos creando momentos y recuerdos únicos. 
+                                    Aún recuerdos las noches que venías a mi casa en la madrugada.<span> Que tiempos aquellos.</span> 
+                                  </p>
+                                  <button id="btn-contenedor-1" type="button" class="rounded border-0 col-6 mt-3 " data-bs-toggle="modal" data-bs-target="#modal1">
+                                    Presióname
+                                  </button>
+                        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered ">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modal1">Briggite Salinas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>24 años. Eres persona encantadora con personalidad. Soñadora. Luchadora.
+                                  Me gusta que cuando te propones algo, no paras hasta que lo consigues.
+                                  Me encanta tu sonrisa y tu forma de ser.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="carousel-item">
+                    <div class="row"> 
+                        <div class="div1 col-6 col-md-4 col-l-4">
+                            <div class="imagen-contenedor">
+                                <img  src="img/foto-2.JPG"  class="img-fluid" alt="...">
+                            </div>
+                            
+                        </div>
+                        <div class="div2  col-6 col-md-8 col-l-8 d-flex align-items-center justify-content-center text-center flex-column">
+                            <div class="texto-contenedor d-flex align-items-center justify-content-center text-center flex-column">
+                                <h3 class="titulo">Pasaron los días...</h3>
+                                <p class="texto "> 
+                                    Fueron pasando las horas, semanas y poco a poco nos fuimos conociendo más y más 
+                                    Empezamos a hacer muchas cosas juntos. Espero que te acuerdes de la noche de Halloween,
+                                    salimos de fiesta disfrazados. La verdad que me lo pase genial. A partir de ese momento 
+                                    ivamos creando momentos y recuerdos únicos. 
+                                    Aún recuerdos las noches que venías a mi casa en la madrugada.<span> Que tiempos aquellos.</span> 
+                                  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <button class="carousel-control-prev" type="button" data-bs-target="#seconCorusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#seconCorusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden ">Next</span>
+                  </button>
+            </div>
+        </div>
+        
+        <div class="container-fluid" id="contenedor-poema">
+            <div class="d-flex flex-column justify-content-center h-100 align-items-center text-center" id="contenedor-poema-dentro">
+              <cite id="poema" class="m-2">Andabamos sin buscarnos, <br> pero sabiendo que andabamos para encontrarnos</cite> 
+              <button type="submit" class="rounded border-0 mt-3"  onclick="changePoems()"> Pulsame</button>
+            </div>
+        </div>
+        
+        <div class="container-fluid px-0">
+            <div class="row"> 
+                
+                <div class="div2 col-6 col-md-8 col-l-8 d-flex align-items-center justify-content-center text-center flex-column">
+                    <div class="texto-contenedor d-flex align-items-center justify-content-center text-center flex-column">
+                        <h3 class="titulo">Pasaron los días...</h3>
+                        <p class="texto "> 
+                    
+                                Nuestro primer viaje a Londres fue una locura, algo improvisado y la verdad, creo que esos son 
+                                los mejores viajes. Nos lo pasamos bien. Con el tiempo fueron más recurrentes porque yo me vine a 
+                                estudiar aquí. Empezamos nuestra aventura de una relación a distancia. Creo que para los dos al 
+                                principio fue algo dificíl pero los llevamos bien. Cada vez que nos vemos pasamos unos dias juntos
+                                y creamos bonitos recuerdos. Recuerdos que quedan plasmados en fotografias y en nuestra mente...
+                              
+                          </p>
+                          <button id="btn-contenedor-1" type="button" onclick="addLikes()" class="rounded border-0 col-6 mt-1">
+                            Pruébame
+                        </button>
+                        <div id="likesboard" class="container-fluidd-flex d-flex align-items-center justify-content-center flex-row mt-2">
+                            <i class="fa fa-heart" style="color:red" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="div1 col-6 col-md-4 col-l-4">
+                    <!-- inicio -->
+                    <div id="thirdCorusel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"> 
+                                    <div class="div1">
+                                        <div class="imagen-contenedor">
+                                            <img  src="img/foto-3.jpg"  class="img-fluid" alt="...">
+                                        </div>
+                                    </div>          
+                            </div>
+                            <div class="carousel-item">
+                                <div class="div1">
+                                    <div class="imagen-contenedor">
+                                        <img  src="img/foto-4.jpg"  class="img-fluid" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="carousel-item">
+                                <div class="div1">
+                                    <div class="imagen-contenedor">
+                                        <img  src="img/foto-5.jpg"  class="img-fluid" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="carousel-item">
+                                <div class="div1">
+                                    <div class="imagen-contenedor">
+                                        <img  src="img/foto-6.jpg"  class="img-fluid" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+        
+                           
+                    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#thirdCorusel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#thirdCorusel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Next</span>
+                              </button>
+                        </div>
+                    </div>
+                    <!-- fin -->
+                </div>
+            </div> 
+        
+        </div>
+        
+        <div class="container-fluid" id="contenedor-footer">
+            <div class="d-flex flex-row justify-content-center h-100 align-items-center text-center">
+              <button type="submit" class="rounded border-0 mx-4"  onclick=""><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+              <button type="submit" class="rounded border-0" id="next-arrow" onclick="changeNextPage ()"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>

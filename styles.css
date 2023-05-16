@@ -1,0 +1,80 @@
+.index{
+    background-image: url(portada2.jpg);
+    object-fit: cover; 
+}
+form{
+    background: linear-gradient(to bottom, #ff9933 48%, #ff6666 100%);
+}
+#contenedor-1,#contenedor-2,#contenedor-3{
+    background-color: rgb(223, 223, 223);
+}
+button{
+    background-color: rgb(108, 108, 108);
+    border: none;
+    color:white;
+}
+
+#contenedor-poema{
+    height: 300px;
+}
+#contenedor-footer{
+    height: 150px;
+}
+
+.row{
+    height: 590px;
+}
+#likesDisplay{
+    font-size: 12px;
+}
+
+@media ( max-width: 576px) {
+    
+    .texto{
+        font-size: 8px;
+        text-align: justify;
+    }
+    .texto-contenedor{
+        height: 220px;
+        width: 200px;
+    }
+    span{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .titulo{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .btn-contenedor-1{
+        height: 30px;
+        width: 100px;
+    }
+    .imagen-contenedor{
+        max-height: 250px;
+    }
+    .row{
+        height: 280px;
+    }
+    .imagen-contenedor img{
+        height: 280px;
+        width: 100%;
+    }
+ }
+
+
+ @media (min-width: 576px){
+    .imagen-contenedor{
+        max-height: 600px;
+
+    }
+    .imagen-contenedor img{
+        height: 600px;
+        width: 100%;
+    }
+ }
+
+ 
