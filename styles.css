@@ -1,18 +1,20 @@
 .index{
-    background-image: url(portada2.jpg);
+    background-image: url(img/portada2.jpg);
     object-fit: cover; 
 }
 form{
-    background: linear-gradient(to bottom, #ff9933 48%, #ff6666 100%);
+    background: linear-gradient(to bottom, #ced8ec 35%, #305974 100%);
 }
 #contenedor-1,#contenedor-2,#contenedor-3{
     background-color: rgb(223, 223, 223);
 }
 button{
-    background-color: rgb(108, 108, 108);
+    background-color: black;
     border: none;
     color:white;
+    border-radius: 20%;
 }
+
 
 #contenedor-poema{
     height: 300px;

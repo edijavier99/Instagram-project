@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,25 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="index">≤©
+<body class="index">
 
     <div class="container-fluid d-flex justify-content-center">
     <div class="row align-items-center vh-100"> 
       <form class="text-center p-4 bg-light rounded">
         <h1 class="mb-3">Login</h1>
         <div class="mb-3 justify-content-center" >
-        <label class="form-label" for="username">Username:</label>
+        <label class="form-label" for="username">Usuario:</label>
         <input type="text" class="form-control" aria-describedby="userHelp" id="username" name="username">
         <div id="userHelp" class="form-text">Quizás es tu nombre</div>
       </div>
 
       <div class="mb-3">
-        <label for="password" class="form-label">Password:</label>
+        <label for="password" class="form-label">Contraseña:</label>
         <input type="password" id="password" name="password" class="form-control" aria-describedby="passwordHelp">
-        <div id="passwordHelp" class="form-text"><i class="fa-regular fa-face-smile-wink"></i> Probariá con nuestro aniversario...</div>
+        <div id="passwordHelp" class="form-text"><i class="fa-regular fa-face-smile-wink"></i> Probaría con tu cumple.....</div>
 
       </div>
-        <button type="button" onclick="login()">Login</button>
+        <button id="bnt-login" type="button" onclick="login()">Login</button>
       </form>
 
     </div>
