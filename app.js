@@ -3,7 +3,7 @@ function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if (username.toLowerCase() === "brigitte" && password.toLowerCase()=== "07031999") {
-      window.location.href = "index.html";
+      window.location.href = "login.html";
     } else {
       alert("usuario o contraseña incorrecto. Intentalo de nuevo");
       return;
